@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: black;
+    color: #864d25;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header img {
+    width: 150px;
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #864d25;
+}
+
+nav ul button {
+    color: #864d25;
+    border-radius: 50px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #864d25;
+    transition: background-color 0.3s ease;
+}
+
+nav ul button:hover {
+    background-color: #864d25;
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.planner {
+    background-color: #e2d9d3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.planner h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.day {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    flex: 1 0 30%;
+    margin-right: 20px;
+}
+
+.day h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #864d25;
+}
+
+.day ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.day ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.footer_body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.footer_body p {
+    margin: 0;
+}
